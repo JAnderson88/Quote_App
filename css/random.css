@@ -1,0 +1,22 @@
+body{
+  margin: 40px;
+  padding: 0;
+  text-align: center;
+}
+
+.bg{
+  width: 100%;
+  z-index: -100;
+  position: fixed;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+}
+
+.quoteContainer{
+  border: 1px solid black;
+  font-size: 14px;
+  min-height: 10vh;
+  min-width: 70vw;
+  max-width: 70vw;
+}

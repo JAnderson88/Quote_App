@@ -1,4 +1,3 @@
-
 var quoteCont = document.querySelector(".quoteContainer");
 
 function getRandom(){

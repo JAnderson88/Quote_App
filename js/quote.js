@@ -20,7 +20,7 @@ function singleQuote(num){
     quoteCont.innerHTML = `
       <p>${data.text}</p>
       <p>${data.author}</p>
-      <p>${data.source}</p>
+      <p>Source: <a href="${(data.source === "N/A") ? "#": data.source}">${data.source}</p>
     `
   })
 }
